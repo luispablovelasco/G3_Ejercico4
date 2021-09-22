@@ -87,6 +87,7 @@
             this.btnguardar.TabIndex = 4;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = true;
+            this.btnguardar.Click += new System.EventHandler(this.btnguardar_Click);
             // 
             // btneliminar
             // 
@@ -96,6 +97,7 @@
             this.btneliminar.TabIndex = 5;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = true;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // btnenviar
             // 
@@ -105,6 +107,7 @@
             this.btnenviar.TabIndex = 6;
             this.btnenviar.Text = "Enviar Datos";
             this.btnenviar.UseVisualStyleBackColor = true;
+            this.btnenviar.Click += new System.EventHandler(this.btnenviar_Click);
             // 
             // txtnombre
             // 
@@ -141,6 +144,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(603, 150);
             this.dataGridView1.TabIndex = 11;
+            this.dataGridView1.DoubleClick += new System.EventHandler(this.dataGridView1_DoubleClick);
             // 
             // Form1
             // 
